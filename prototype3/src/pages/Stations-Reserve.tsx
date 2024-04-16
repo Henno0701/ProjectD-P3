@@ -1,25 +1,25 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
-import './Reservations.css';
+import './Stations-Reserve.css';
 
-const Reservations: React.FC = () => {
+const StationsReserve: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Reservations</IonTitle>
+          <IonTitle>Reserve</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Reservations</IonTitle>
+            <IonTitle size="large">Reserve</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Reservations page" />
+        <ExploreContainer name="Home page" />
       </IonContent>
     </IonPage>
   );
 };
 
-export default Reservations;
+export default StationsReserve;
